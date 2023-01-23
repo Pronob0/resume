@@ -600,5 +600,41 @@ p {
 }
 
 
+.edu-card{
+	position: relative;
+  background: transparent;
+	box-shadow: #000000 5px 5px 15px, #4d4d4d -5px -5px 15px;
+}
+.edu-card:before{
+	content: " ";
+	position: absolute;
+	background: #FDB157;
+	width: 5px;
+	height: 100%;
+
+}
+.edu-card:after{
+	content: " ";
+	position: absolute;
+	background: #FDB157;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	top: 30%;
+	left: -8px;
+
+}
+.edu-card p{
+	color: #B3B3B3;
+}
+.edu-para{
+	background: #313131;
+	width: 52%;
+	padding: 2px 5px 2px 7px;
+	border-radius: 5px;
+
+}
+
+
 
 
